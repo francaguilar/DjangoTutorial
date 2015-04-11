@@ -1,0 +1,2072 @@
+[
+{
+    "fields": {
+        "model": "logentry",
+        "name": "log entry",
+        "app_label": "admin"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 8
+},
+{
+    "fields": {
+        "model": "permission",
+        "name": "permission",
+        "app_label": "auth"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 9
+},
+{
+    "fields": {
+        "model": "group",
+        "name": "group",
+        "app_label": "auth"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 10
+},
+{
+    "fields": {
+        "model": "user",
+        "name": "user",
+        "app_label": "auth"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 11
+},
+{
+    "fields": {
+        "model": "contenttype",
+        "name": "content type",
+        "app_label": "contenttypes"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 12
+},
+{
+    "fields": {
+        "model": "session",
+        "name": "session",
+        "app_label": "sessions"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 13
+},
+{
+    "fields": {
+        "model": "pokemon",
+        "name": "pokemon",
+        "app_label": "app"
+    },
+    "model": "contenttypes.contenttype",
+    "pk": 14
+},
+{
+    "fields": {
+        "name": "Bulbasaur",
+        "tipo": "poison",
+        "image": "/media/img/1383571573.78.png",
+        "attack": 49,
+        "defense": 49,
+        "hp": 45
+    },
+    "model": "app.pokemon",
+    "pk": 1
+},
+{
+    "fields": {
+        "name": "Bulbasaur",
+        "tipo": "poison",
+        "image": "/media/img/1.png",
+        "attack": 49,
+        "defense": 49,
+        "hp": 45
+    },
+    "model": "app.pokemon",
+    "pk": 2
+},
+{
+    "fields": {
+        "name": "Ivysaur",
+        "tipo": "poison",
+        "image": "/media/img/2.png",
+        "attack": 62,
+        "defense": 63,
+        "hp": 60
+    },
+    "model": "app.pokemon",
+    "pk": 3
+},
+{
+    "fields": {
+        "name": "Venusaur",
+        "tipo": "poison",
+        "image": "/media/img/3.png",
+        "attack": 82,
+        "defense": 83,
+        "hp": 80
+    },
+    "model": "app.pokemon",
+    "pk": 4
+},
+{
+    "fields": {
+        "name": "Charmander",
+        "tipo": "fire",
+        "image": "/media/img/4.png",
+        "attack": 52,
+        "defense": 43,
+        "hp": 39
+    },
+    "model": "app.pokemon",
+    "pk": 5
+},
+{
+    "fields": {
+        "name": "Charmeleon",
+        "tipo": "fire",
+        "image": "/media/img/5.png",
+        "attack": 64,
+        "defense": 58,
+        "hp": 58
+    },
+    "model": "app.pokemon",
+    "pk": 6
+},
+{
+    "fields": {
+        "name": "Charizard",
+        "tipo": "flying",
+        "image": "/media/img/6.png",
+        "attack": 84,
+        "defense": 78,
+        "hp": 78
+    },
+    "model": "app.pokemon",
+    "pk": 7
+},
+{
+    "fields": {
+        "name": "Squirtle",
+        "tipo": "water",
+        "image": "/media/img/7.png",
+        "attack": 48,
+        "defense": 65,
+        "hp": 44
+    },
+    "model": "app.pokemon",
+    "pk": 8
+},
+{
+    "fields": {
+        "name": "Wartortle",
+        "tipo": "water",
+        "image": "/media/img/8.png",
+        "attack": 63,
+        "defense": 80,
+        "hp": 59
+    },
+    "model": "app.pokemon",
+    "pk": 9
+},
+{
+    "fields": {
+        "name": "Blastoise",
+        "tipo": "water",
+        "image": "/media/img/9.png",
+        "attack": 83,
+        "defense": 100,
+        "hp": 79
+    },
+    "model": "app.pokemon",
+    "pk": 10
+},
+{
+    "fields": {
+        "name": "Caterpie",
+        "tipo": "bug",
+        "image": "/media/img/10.png",
+        "attack": 30,
+        "defense": 35,
+        "hp": 45
+    },
+    "model": "app.pokemon",
+    "pk": 11
+},
+{
+    "fields": {
+        "name": "Metapod",
+        "tipo": "bug",
+        "image": "/media/img/11.png",
+        "attack": 20,
+        "defense": 55,
+        "hp": 50
+    },
+    "model": "app.pokemon",
+    "pk": 12
+},
+{
+    "fields": {
+        "name": "Butterfree",
+        "tipo": "flying",
+        "image": "/media/img/12.png",
+        "attack": 45,
+        "defense": 50,
+        "hp": 60
+    },
+    "model": "app.pokemon",
+    "pk": 13
+},
+{
+    "fields": {
+        "name": "Weedle",
+        "tipo": "poison",
+        "image": "/media/img/13.png",
+        "attack": 35,
+        "defense": 30,
+        "hp": 40
+    },
+    "model": "app.pokemon",
+    "pk": 14
+},
+{
+    "fields": {
+        "name": "Kakuna",
+        "tipo": "poison",
+        "image": "/media/img/14.png",
+        "attack": 25,
+        "defense": 50,
+        "hp": 45
+    },
+    "model": "app.pokemon",
+    "pk": 15
+},
+{
+    "fields": {
+        "name": "Beedrill",
+        "tipo": "poison",
+        "image": "/media/img/15.png",
+        "attack": 90,
+        "defense": 40,
+        "hp": 65
+    },
+    "model": "app.pokemon",
+    "pk": 16
+},
+{
+    "fields": {
+        "name": "Pidgey",
+        "tipo": "normal",
+        "image": "/media/img/16.png",
+        "attack": 45,
+        "defense": 40,
+        "hp": 40
+    },
+    "model": "app.pokemon",
+    "pk": 17
+},
+{
+    "fields": {
+        "name": "Pidgeotto",
+        "tipo": "normal",
+        "image": "/media/img/17.png",
+        "attack": 60,
+        "defense": 55,
+        "hp": 63
+    },
+    "model": "app.pokemon",
+    "pk": 18
+},
+{
+    "fields": {
+        "name": "Pidgeot",
+        "tipo": "normal",
+        "image": "/media/img/18.png",
+        "attack": 80,
+        "defense": 75,
+        "hp": 83
+    },
+    "model": "app.pokemon",
+    "pk": 19
+},
+{
+    "fields": {
+        "name": "Rattata",
+        "tipo": "normal",
+        "image": "/media/img/19.png",
+        "attack": 56,
+        "defense": 35,
+        "hp": 30
+    },
+    "model": "app.pokemon",
+    "pk": 20
+},
+{
+    "fields": {
+        "name": "Raticate",
+        "tipo": "normal",
+        "image": "/media/img/20.png",
+        "attack": 81,
+        "defense": 60,
+        "hp": 55
+    },
+    "model": "app.pokemon",
+    "pk": 21
+},
+{
+    "fields": {
+        "name": "Spearow",
+        "tipo": "normal",
+        "image": "/media/img/21.png",
+        "attack": 60,
+        "defense": 30,
+        "hp": 40
+    },
+    "model": "app.pokemon",
+    "pk": 22
+},
+{
+    "fields": {
+        "name": "Fearow",
+        "tipo": "normal",
+        "image": "/media/img/22.png",
+        "attack": 90,
+        "defense": 65,
+        "hp": 65
+    },
+    "model": "app.pokemon",
+    "pk": 23
+},
+{
+    "fields": {
+        "name": "Ekans",
+        "tipo": "poison",
+        "image": "/media/img/23.png",
+        "attack": 60,
+        "defense": 44,
+        "hp": 35
+    },
+    "model": "app.pokemon",
+    "pk": 24
+},
+{
+    "fields": {
+        "name": "Arbok",
+        "tipo": "poison",
+        "image": "/media/img/24.png",
+        "attack": 85,
+        "defense": 69,
+        "hp": 60
+    },
+    "model": "app.pokemon",
+    "pk": 25
+},
+{
+    "fields": {
+        "name": "Pikachu",
+        "tipo": "electric",
+        "image": "/media/img/25.png",
+        "attack": 55,
+        "defense": 40,
+        "hp": 35
+    },
+    "model": "app.pokemon",
+    "pk": 26
+},
+{
+    "fields": {
+        "name": "Raichu",
+        "tipo": "electric",
+        "image": "/media/img/26.png",
+        "attack": 90,
+        "defense": 55,
+        "hp": 60
+    },
+    "model": "app.pokemon",
+    "pk": 27
+},
+{
+    "fields": {
+        "name": "Sandshrew",
+        "tipo": "ground",
+        "image": "/media/img/27.png",
+        "attack": 75,
+        "defense": 85,
+        "hp": 50
+    },
+    "model": "app.pokemon",
+    "pk": 28
+},
+{
+    "fields": {
+        "name": "Sandslash",
+        "tipo": "ground",
+        "image": "/media/img/28.png",
+        "attack": 100,
+        "defense": 110,
+        "hp": 75
+    },
+    "model": "app.pokemon",
+    "pk": 29
+},
+{
+    "fields": {
+        "name": "Nidoran-f",
+        "tipo": "poison",
+        "image": "/media/img/29.png",
+        "attack": 47,
+        "defense": 52,
+        "hp": 55
+    },
+    "model": "app.pokemon",
+    "pk": 30
+},
+{
+    "fields": {
+        "name": "Nidorina",
+        "tipo": "poison",
+        "image": "/media/img/30.png",
+        "attack": 62,
+        "defense": 67,
+        "hp": 70
+    },
+    "model": "app.pokemon",
+    "pk": 31
+},
+{
+    "fields": {
+        "name": "Nidoqueen",
+        "tipo": "poison",
+        "image": "/media/img/31.png",
+        "attack": 92,
+        "defense": 87,
+        "hp": 90
+    },
+    "model": "app.pokemon",
+    "pk": 32
+},
+{
+    "fields": {
+        "name": "Nidoran-m",
+        "tipo": "poison",
+        "image": "/media/img/32.png",
+        "attack": 57,
+        "defense": 40,
+        "hp": 46
+    },
+    "model": "app.pokemon",
+    "pk": 33
+},
+{
+    "fields": {
+        "name": "Nidorino",
+        "tipo": "poison",
+        "image": "/media/img/33.png",
+        "attack": 72,
+        "defense": 57,
+        "hp": 61
+    },
+    "model": "app.pokemon",
+    "pk": 34
+},
+{
+    "fields": {
+        "name": "Nidoking",
+        "tipo": "poison",
+        "image": "/media/img/34.png",
+        "attack": 102,
+        "defense": 77,
+        "hp": 81
+    },
+    "model": "app.pokemon",
+    "pk": 35
+},
+{
+    "fields": {
+        "name": "Clefairy",
+        "tipo": "fairy",
+        "image": "/media/img/35.png",
+        "attack": 45,
+        "defense": 48,
+        "hp": 70
+    },
+    "model": "app.pokemon",
+    "pk": 36
+},
+{
+    "fields": {
+        "name": "Clefable",
+        "tipo": "fairy",
+        "image": "/media/img/36.png",
+        "attack": 70,
+        "defense": 73,
+        "hp": 95
+    },
+    "model": "app.pokemon",
+    "pk": 37
+},
+{
+    "fields": {
+        "name": "Vulpix",
+        "tipo": "fire",
+        "image": "/media/img/37.png",
+        "attack": 41,
+        "defense": 40,
+        "hp": 38
+    },
+    "model": "app.pokemon",
+    "pk": 38
+},
+{
+    "fields": {
+        "name": "Ninetales",
+        "tipo": "fire",
+        "image": "/media/img/38.png",
+        "attack": 76,
+        "defense": 75,
+        "hp": 73
+    },
+    "model": "app.pokemon",
+    "pk": 39
+},
+{
+    "fields": {
+        "name": "Jigglypuff",
+        "tipo": "normal",
+        "image": "/media/img/39.png",
+        "attack": 45,
+        "defense": 20,
+        "hp": 115
+    },
+    "model": "app.pokemon",
+    "pk": 40
+},
+{
+    "fields": {
+        "name": "Wigglytuff",
+        "tipo": "normal",
+        "image": "/media/img/40.png",
+        "attack": 70,
+        "defense": 45,
+        "hp": 140
+    },
+    "model": "app.pokemon",
+    "pk": 41
+},
+{
+    "fields": {
+        "name": "Zubat",
+        "tipo": "flying",
+        "image": "/media/img/41.png",
+        "attack": 45,
+        "defense": 35,
+        "hp": 40
+    },
+    "model": "app.pokemon",
+    "pk": 42
+},
+{
+    "fields": {
+        "name": "Golbat",
+        "tipo": "flying",
+        "image": "/media/img/42.png",
+        "attack": 80,
+        "defense": 70,
+        "hp": 75
+    },
+    "model": "app.pokemon",
+    "pk": 43
+},
+{
+    "fields": {
+        "name": "Oddish",
+        "tipo": "poison",
+        "image": "/media/img/43.png",
+        "attack": 50,
+        "defense": 55,
+        "hp": 45
+    },
+    "model": "app.pokemon",
+    "pk": 44
+},
+{
+    "fields": {
+        "name": "Gloom",
+        "tipo": "poison",
+        "image": "/media/img/44.png",
+        "attack": 65,
+        "defense": 70,
+        "hp": 60
+    },
+    "model": "app.pokemon",
+    "pk": 45
+},
+{
+    "fields": {
+        "name": "Vileplume",
+        "tipo": "poison",
+        "image": "/media/img/45.png",
+        "attack": 80,
+        "defense": 85,
+        "hp": 75
+    },
+    "model": "app.pokemon",
+    "pk": 46
+},
+{
+    "fields": {
+        "name": "Paras",
+        "tipo": "bug",
+        "image": "/media/img/46.png",
+        "attack": 70,
+        "defense": 55,
+        "hp": 35
+    },
+    "model": "app.pokemon",
+    "pk": 47
+},
+{
+    "fields": {
+        "name": "Parasect",
+        "tipo": "bug",
+        "image": "/media/img/47.png",
+        "attack": 95,
+        "defense": 80,
+        "hp": 60
+    },
+    "model": "app.pokemon",
+    "pk": 48
+},
+{
+    "fields": {
+        "name": "Venonat",
+        "tipo": "poison",
+        "image": "/media/img/48.png",
+        "attack": 55,
+        "defense": 50,
+        "hp": 60
+    },
+    "model": "app.pokemon",
+    "pk": 49
+},
+{
+    "fields": {
+        "name": "Venomoth",
+        "tipo": "poison",
+        "image": "/media/img/49.png",
+        "attack": 65,
+        "defense": 60,
+        "hp": 70
+    },
+    "model": "app.pokemon",
+    "pk": 50
+},
+{
+    "fields": {
+        "name": "Diglett",
+        "tipo": "ground",
+        "image": "/media/img/50.png",
+        "attack": 55,
+        "defense": 25,
+        "hp": 10
+    },
+    "model": "app.pokemon",
+    "pk": 51
+},
+{
+    "fields": {
+        "name": "Dugtrio",
+        "tipo": "ground",
+        "image": "/media/img/51.png",
+        "attack": 80,
+        "defense": 50,
+        "hp": 35
+    },
+    "model": "app.pokemon",
+    "pk": 52
+},
+{
+    "fields": {
+        "name": "Meowth",
+        "tipo": "normal",
+        "image": "/media/img/52.png",
+        "attack": 45,
+        "defense": 35,
+        "hp": 40
+    },
+    "model": "app.pokemon",
+    "pk": 53
+},
+{
+    "fields": {
+        "name": "Persian",
+        "tipo": "normal",
+        "image": "/media/img/53.png",
+        "attack": 70,
+        "defense": 60,
+        "hp": 65
+    },
+    "model": "app.pokemon",
+    "pk": 54
+},
+{
+    "fields": {
+        "name": "Psyduck",
+        "tipo": "water",
+        "image": "/media/img/54.png",
+        "attack": 52,
+        "defense": 48,
+        "hp": 50
+    },
+    "model": "app.pokemon",
+    "pk": 55
+},
+{
+    "fields": {
+        "name": "Golduck",
+        "tipo": "water",
+        "image": "/media/img/55.png",
+        "attack": 82,
+        "defense": 78,
+        "hp": 80
+    },
+    "model": "app.pokemon",
+    "pk": 56
+},
+{
+    "fields": {
+        "name": "Mankey",
+        "tipo": "fighting",
+        "image": "/media/img/56.png",
+        "attack": 80,
+        "defense": 35,
+        "hp": 40
+    },
+    "model": "app.pokemon",
+    "pk": 57
+},
+{
+    "fields": {
+        "name": "Primeape",
+        "tipo": "fighting",
+        "image": "/media/img/57.png",
+        "attack": 105,
+        "defense": 60,
+        "hp": 65
+    },
+    "model": "app.pokemon",
+    "pk": 58
+},
+{
+    "fields": {
+        "name": "Growlithe",
+        "tipo": "fire",
+        "image": "/media/img/58.png",
+        "attack": 70,
+        "defense": 45,
+        "hp": 55
+    },
+    "model": "app.pokemon",
+    "pk": 59
+},
+{
+    "fields": {
+        "name": "Arcanine",
+        "tipo": "fire",
+        "image": "/media/img/59.png",
+        "attack": 110,
+        "defense": 80,
+        "hp": 90
+    },
+    "model": "app.pokemon",
+    "pk": 60
+},
+{
+    "fields": {
+        "name": "Poliwag",
+        "tipo": "water",
+        "image": "/media/img/60.png",
+        "attack": 50,
+        "defense": 40,
+        "hp": 40
+    },
+    "model": "app.pokemon",
+    "pk": 61
+},
+{
+    "fields": {
+        "name": "Poliwhirl",
+        "tipo": "water",
+        "image": "/media/img/61.png",
+        "attack": 65,
+        "defense": 65,
+        "hp": 65
+    },
+    "model": "app.pokemon",
+    "pk": 62
+},
+{
+    "fields": {
+        "name": "Poliwrath",
+        "tipo": "fighting",
+        "image": "/media/img/62.png",
+        "attack": 95,
+        "defense": 95,
+        "hp": 90
+    },
+    "model": "app.pokemon",
+    "pk": 63
+},
+{
+    "fields": {
+        "name": "Abra",
+        "tipo": "psychic",
+        "image": "/media/img/63.png",
+        "attack": 20,
+        "defense": 15,
+        "hp": 25
+    },
+    "model": "app.pokemon",
+    "pk": 64
+},
+{
+    "fields": {
+        "name": "Kadabra",
+        "tipo": "psychic",
+        "image": "/media/img/64.png",
+        "attack": 35,
+        "defense": 30,
+        "hp": 40
+    },
+    "model": "app.pokemon",
+    "pk": 65
+},
+{
+    "fields": {
+        "name": "Alakazam",
+        "tipo": "psychic",
+        "image": "/media/img/65.png",
+        "attack": 50,
+        "defense": 45,
+        "hp": 55
+    },
+    "model": "app.pokemon",
+    "pk": 66
+},
+{
+    "fields": {
+        "name": "Machop",
+        "tipo": "fighting",
+        "image": "/media/img/66.png",
+        "attack": 80,
+        "defense": 50,
+        "hp": 70
+    },
+    "model": "app.pokemon",
+    "pk": 67
+},
+{
+    "fields": {
+        "name": "Machoke",
+        "tipo": "fighting",
+        "image": "/media/img/67.png",
+        "attack": 100,
+        "defense": 70,
+        "hp": 80
+    },
+    "model": "app.pokemon",
+    "pk": 68
+},
+{
+    "fields": {
+        "name": "Machamp",
+        "tipo": "fighting",
+        "image": "/media/img/68.png",
+        "attack": 130,
+        "defense": 80,
+        "hp": 90
+    },
+    "model": "app.pokemon",
+    "pk": 69
+},
+{
+    "fields": {
+        "name": "Bellsprout",
+        "tipo": "poison",
+        "image": "/media/img/69.png",
+        "attack": 75,
+        "defense": 35,
+        "hp": 50
+    },
+    "model": "app.pokemon",
+    "pk": 70
+},
+{
+    "fields": {
+        "name": "Weepinbell",
+        "tipo": "poison",
+        "image": "/media/img/70.png",
+        "attack": 90,
+        "defense": 50,
+        "hp": 65
+    },
+    "model": "app.pokemon",
+    "pk": 71
+},
+{
+    "fields": {
+        "name": "Victreebel",
+        "tipo": "poison",
+        "image": "/media/img/71.png",
+        "attack": 105,
+        "defense": 65,
+        "hp": 80
+    },
+    "model": "app.pokemon",
+    "pk": 72
+},
+{
+    "fields": {
+        "name": "Tentacool",
+        "tipo": "poison",
+        "image": "/media/img/72.png",
+        "attack": 40,
+        "defense": 35,
+        "hp": 40
+    },
+    "model": "app.pokemon",
+    "pk": 73
+},
+{
+    "fields": {
+        "name": "Tentacruel",
+        "tipo": "poison",
+        "image": "/media/img/73.png",
+        "attack": 70,
+        "defense": 65,
+        "hp": 80
+    },
+    "model": "app.pokemon",
+    "pk": 74
+},
+{
+    "fields": {
+        "name": "Geodude",
+        "tipo": "ground",
+        "image": "/media/img/74.png",
+        "attack": 80,
+        "defense": 100,
+        "hp": 40
+    },
+    "model": "app.pokemon",
+    "pk": 75
+},
+{
+    "fields": {
+        "name": "Graveler",
+        "tipo": "ground",
+        "image": "/media/img/75.png",
+        "attack": 95,
+        "defense": 115,
+        "hp": 55
+    },
+    "model": "app.pokemon",
+    "pk": 76
+},
+{
+    "fields": {
+        "name": "Golem",
+        "tipo": "ground",
+        "image": "/media/img/76.png",
+        "attack": 120,
+        "defense": 130,
+        "hp": 80
+    },
+    "model": "app.pokemon",
+    "pk": 77
+},
+{
+    "fields": {
+        "name": "Ponyta",
+        "tipo": "fire",
+        "image": "/media/img/77.png",
+        "attack": 85,
+        "defense": 55,
+        "hp": 50
+    },
+    "model": "app.pokemon",
+    "pk": 78
+},
+{
+    "fields": {
+        "name": "Rapidash",
+        "tipo": "fire",
+        "image": "/media/img/78.png",
+        "attack": 100,
+        "defense": 70,
+        "hp": 65
+    },
+    "model": "app.pokemon",
+    "pk": 79
+},
+{
+    "fields": {
+        "name": "Slowpoke",
+        "tipo": "water",
+        "image": "/media/img/79.png",
+        "attack": 65,
+        "defense": 65,
+        "hp": 90
+    },
+    "model": "app.pokemon",
+    "pk": 80
+},
+{
+    "fields": {
+        "name": "Slowbro",
+        "tipo": "water",
+        "image": "/media/img/80.png",
+        "attack": 75,
+        "defense": 110,
+        "hp": 95
+    },
+    "model": "app.pokemon",
+    "pk": 81
+},
+{
+    "fields": {
+        "name": "Magnemite",
+        "tipo": "steel",
+        "image": "/media/img/81.png",
+        "attack": 35,
+        "defense": 70,
+        "hp": 25
+    },
+    "model": "app.pokemon",
+    "pk": 82
+},
+{
+    "fields": {
+        "name": "Magneton",
+        "tipo": "steel",
+        "image": "/media/img/82.png",
+        "attack": 60,
+        "defense": 95,
+        "hp": 50
+    },
+    "model": "app.pokemon",
+    "pk": 83
+},
+{
+    "fields": {
+        "name": "Farfetchd",
+        "tipo": "normal",
+        "image": "/media/img/83.png",
+        "attack": 65,
+        "defense": 55,
+        "hp": 52
+    },
+    "model": "app.pokemon",
+    "pk": 84
+},
+{
+    "fields": {
+        "name": "Doduo",
+        "tipo": "normal",
+        "image": "/media/img/84.png",
+        "attack": 85,
+        "defense": 45,
+        "hp": 35
+    },
+    "model": "app.pokemon",
+    "pk": 85
+},
+{
+    "fields": {
+        "name": "Dodrio",
+        "tipo": "normal",
+        "image": "/media/img/85.png",
+        "attack": 110,
+        "defense": 70,
+        "hp": 60
+    },
+    "model": "app.pokemon",
+    "pk": 86
+},
+{
+    "fields": {
+        "name": "Seel",
+        "tipo": "water",
+        "image": "/media/img/86.png",
+        "attack": 45,
+        "defense": 55,
+        "hp": 65
+    },
+    "model": "app.pokemon",
+    "pk": 87
+},
+{
+    "fields": {
+        "name": "Dewgong",
+        "tipo": "water",
+        "image": "/media/img/87.png",
+        "attack": 70,
+        "defense": 80,
+        "hp": 90
+    },
+    "model": "app.pokemon",
+    "pk": 88
+},
+{
+    "fields": {
+        "name": "Grimer",
+        "tipo": "poison",
+        "image": "/media/img/88.png",
+        "attack": 80,
+        "defense": 50,
+        "hp": 80
+    },
+    "model": "app.pokemon",
+    "pk": 89
+},
+{
+    "fields": {
+        "name": "Muk",
+        "tipo": "poison",
+        "image": "/media/img/89.png",
+        "attack": 105,
+        "defense": 75,
+        "hp": 105
+    },
+    "model": "app.pokemon",
+    "pk": 90
+},
+{
+    "fields": {
+        "name": "Shellder",
+        "tipo": "water",
+        "image": "/media/img/90.png",
+        "attack": 65,
+        "defense": 100,
+        "hp": 30
+    },
+    "model": "app.pokemon",
+    "pk": 91
+},
+{
+    "fields": {
+        "name": "Cloyster",
+        "tipo": "water",
+        "image": "/media/img/91.png",
+        "attack": 95,
+        "defense": 180,
+        "hp": 50
+    },
+    "model": "app.pokemon",
+    "pk": 92
+},
+{
+    "fields": {
+        "name": "Gastly",
+        "tipo": "poison",
+        "image": "/media/img/92.png",
+        "attack": 35,
+        "defense": 30,
+        "hp": 30
+    },
+    "model": "app.pokemon",
+    "pk": 93
+},
+{
+    "fields": {
+        "name": "Haunter",
+        "tipo": "poison",
+        "image": "/media/img/93.png",
+        "attack": 50,
+        "defense": 45,
+        "hp": 45
+    },
+    "model": "app.pokemon",
+    "pk": 94
+},
+{
+    "fields": {
+        "name": "Gengar",
+        "tipo": "poison",
+        "image": "/media/img/94.png",
+        "attack": 65,
+        "defense": 60,
+        "hp": 60
+    },
+    "model": "app.pokemon",
+    "pk": 95
+},
+{
+    "fields": {
+        "name": "Onix",
+        "tipo": "ground",
+        "image": "/media/img/95.png",
+        "attack": 45,
+        "defense": 160,
+        "hp": 35
+    },
+    "model": "app.pokemon",
+    "pk": 96
+},
+{
+    "fields": {
+        "name": "Drowzee",
+        "tipo": "psychic",
+        "image": "/media/img/96.png",
+        "attack": 48,
+        "defense": 45,
+        "hp": 60
+    },
+    "model": "app.pokemon",
+    "pk": 97
+},
+{
+    "fields": {
+        "name": "Hypno",
+        "tipo": "psychic",
+        "image": "/media/img/97.png",
+        "attack": 73,
+        "defense": 70,
+        "hp": 85
+    },
+    "model": "app.pokemon",
+    "pk": 98
+},
+{
+    "fields": {
+        "name": "Krabby",
+        "tipo": "water",
+        "image": "/media/img/98.png",
+        "attack": 105,
+        "defense": 90,
+        "hp": 30
+    },
+    "model": "app.pokemon",
+    "pk": 99
+},
+{
+    "fields": {
+        "name": "Kingler",
+        "tipo": "water",
+        "image": "/media/img/99.png",
+        "attack": 130,
+        "defense": 115,
+        "hp": 55
+    },
+    "model": "app.pokemon",
+    "pk": 100
+},
+{
+    "fields": {
+        "name": "Voltorb",
+        "tipo": "electric",
+        "image": "/media/img/100.png",
+        "attack": 30,
+        "defense": 50,
+        "hp": 40
+    },
+    "model": "app.pokemon",
+    "pk": 101
+},
+{
+    "fields": {
+        "name": "Electrode",
+        "tipo": "electric",
+        "image": "/media/img/101.png",
+        "attack": 50,
+        "defense": 70,
+        "hp": 60
+    },
+    "model": "app.pokemon",
+    "pk": 102
+},
+{
+    "fields": {
+        "name": "Exeggcute",
+        "tipo": "grass",
+        "image": "/media/img/102.png",
+        "attack": 40,
+        "defense": 80,
+        "hp": 60
+    },
+    "model": "app.pokemon",
+    "pk": 103
+},
+{
+    "fields": {
+        "name": "Exeggutor",
+        "tipo": "grass",
+        "image": "/media/img/103.png",
+        "attack": 95,
+        "defense": 85,
+        "hp": 95
+    },
+    "model": "app.pokemon",
+    "pk": 104
+},
+{
+    "fields": {
+        "name": "Cubone",
+        "tipo": "ground",
+        "image": "/media/img/104.png",
+        "attack": 50,
+        "defense": 95,
+        "hp": 50
+    },
+    "model": "app.pokemon",
+    "pk": 105
+},
+{
+    "fields": {
+        "name": "Marowak",
+        "tipo": "ground",
+        "image": "/media/img/105.png",
+        "attack": 80,
+        "defense": 110,
+        "hp": 60
+    },
+    "model": "app.pokemon",
+    "pk": 106
+},
+{
+    "fields": {
+        "name": "Hitmonlee",
+        "tipo": "fighting",
+        "image": "/media/img/106.png",
+        "attack": 120,
+        "defense": 53,
+        "hp": 50
+    },
+    "model": "app.pokemon",
+    "pk": 107
+},
+{
+    "fields": {
+        "name": "Hitmonchan",
+        "tipo": "fighting",
+        "image": "/media/img/107.png",
+        "attack": 105,
+        "defense": 79,
+        "hp": 50
+    },
+    "model": "app.pokemon",
+    "pk": 108
+},
+{
+    "fields": {
+        "name": "Lickitung",
+        "tipo": "normal",
+        "image": "/media/img/108.png",
+        "attack": 55,
+        "defense": 75,
+        "hp": 90
+    },
+    "model": "app.pokemon",
+    "pk": 109
+},
+{
+    "fields": {
+        "name": "Koffing",
+        "tipo": "poison",
+        "image": "/media/img/109.png",
+        "attack": 65,
+        "defense": 95,
+        "hp": 40
+    },
+    "model": "app.pokemon",
+    "pk": 110
+},
+{
+    "fields": {
+        "name": "Weezing",
+        "tipo": "poison",
+        "image": "/media/img/110.png",
+        "attack": 90,
+        "defense": 120,
+        "hp": 65
+    },
+    "model": "app.pokemon",
+    "pk": 111
+},
+{
+    "fields": {
+        "name": "Rhyhorn",
+        "tipo": "ground",
+        "image": "/media/img/111.png",
+        "attack": 85,
+        "defense": 95,
+        "hp": 80
+    },
+    "model": "app.pokemon",
+    "pk": 112
+},
+{
+    "fields": {
+        "name": "Rhydon",
+        "tipo": "ground",
+        "image": "/media/img/112.png",
+        "attack": 130,
+        "defense": 120,
+        "hp": 105
+    },
+    "model": "app.pokemon",
+    "pk": 113
+},
+{
+    "fields": {
+        "name": "Chansey",
+        "tipo": "normal",
+        "image": "/media/img/113.png",
+        "attack": 5,
+        "defense": 5,
+        "hp": 250
+    },
+    "model": "app.pokemon",
+    "pk": 114
+},
+{
+    "fields": {
+        "name": "Tangela",
+        "tipo": "grass",
+        "image": "/media/img/114.png",
+        "attack": 55,
+        "defense": 115,
+        "hp": 65
+    },
+    "model": "app.pokemon",
+    "pk": 115
+},
+{
+    "fields": {
+        "name": "Kangaskhan",
+        "tipo": "normal",
+        "image": "/media/img/115.png",
+        "attack": 95,
+        "defense": 80,
+        "hp": 105
+    },
+    "model": "app.pokemon",
+    "pk": 116
+},
+{
+    "fields": {
+        "name": "Horsea",
+        "tipo": "water",
+        "image": "/media/img/116.png",
+        "attack": 40,
+        "defense": 70,
+        "hp": 30
+    },
+    "model": "app.pokemon",
+    "pk": 117
+},
+{
+    "fields": {
+        "name": "Seadra",
+        "tipo": "water",
+        "image": "/media/img/117.png",
+        "attack": 65,
+        "defense": 95,
+        "hp": 55
+    },
+    "model": "app.pokemon",
+    "pk": 118
+},
+{
+    "fields": {
+        "name": "Goldeen",
+        "tipo": "water",
+        "image": "/media/img/118.png",
+        "attack": 67,
+        "defense": 60,
+        "hp": 45
+    },
+    "model": "app.pokemon",
+    "pk": 119
+},
+{
+    "fields": {
+        "name": "Seaking",
+        "tipo": "water",
+        "image": "/media/img/119.png",
+        "attack": 92,
+        "defense": 65,
+        "hp": 80
+    },
+    "model": "app.pokemon",
+    "pk": 120
+},
+{
+    "fields": {
+        "name": "Staryu",
+        "tipo": "water",
+        "image": "/media/img/120.png",
+        "attack": 45,
+        "defense": 55,
+        "hp": 30
+    },
+    "model": "app.pokemon",
+    "pk": 121
+},
+{
+    "fields": {
+        "name": "Starmie",
+        "tipo": "water",
+        "image": "/media/img/121.png",
+        "attack": 75,
+        "defense": 85,
+        "hp": 60
+    },
+    "model": "app.pokemon",
+    "pk": 122
+},
+{
+    "fields": {
+        "name": "Mr-mime",
+        "tipo": "fairy",
+        "image": "/media/img/122.png",
+        "attack": 45,
+        "defense": 65,
+        "hp": 40
+    },
+    "model": "app.pokemon",
+    "pk": 123
+},
+{
+    "fields": {
+        "name": "Scyther",
+        "tipo": "flying",
+        "image": "/media/img/123.png",
+        "attack": 110,
+        "defense": 80,
+        "hp": 70
+    },
+    "model": "app.pokemon",
+    "pk": 124
+},
+{
+    "fields": {
+        "name": "Jynx",
+        "tipo": "ice",
+        "image": "/media/img/124.png",
+        "attack": 50,
+        "defense": 35,
+        "hp": 65
+    },
+    "model": "app.pokemon",
+    "pk": 125
+},
+{
+    "fields": {
+        "name": "Electabuzz",
+        "tipo": "electric",
+        "image": "/media/img/125.png",
+        "attack": 83,
+        "defense": 57,
+        "hp": 65
+    },
+    "model": "app.pokemon",
+    "pk": 126
+},
+{
+    "fields": {
+        "name": "Magmar",
+        "tipo": "fire",
+        "image": "/media/img/126.png",
+        "attack": 95,
+        "defense": 57,
+        "hp": 65
+    },
+    "model": "app.pokemon",
+    "pk": 127
+},
+{
+    "fields": {
+        "name": "Pinsir",
+        "tipo": "bug",
+        "image": "/media/img/127.png",
+        "attack": 125,
+        "defense": 100,
+        "hp": 65
+    },
+    "model": "app.pokemon",
+    "pk": 128
+},
+{
+    "fields": {
+        "name": "Tauros",
+        "tipo": "normal",
+        "image": "/media/img/128.png",
+        "attack": 100,
+        "defense": 95,
+        "hp": 75
+    },
+    "model": "app.pokemon",
+    "pk": 129
+},
+{
+    "fields": {
+        "name": "Magikarp",
+        "tipo": "water",
+        "image": "/media/img/129.png",
+        "attack": 10,
+        "defense": 55,
+        "hp": 20
+    },
+    "model": "app.pokemon",
+    "pk": 130
+},
+{
+    "fields": {
+        "name": "Gyarados",
+        "tipo": "flying",
+        "image": "/media/img/130.png",
+        "attack": 125,
+        "defense": 79,
+        "hp": 95
+    },
+    "model": "app.pokemon",
+    "pk": 131
+},
+{
+    "fields": {
+        "name": "Lapras",
+        "tipo": "water",
+        "image": "/media/img/131.png",
+        "attack": 85,
+        "defense": 80,
+        "hp": 130
+    },
+    "model": "app.pokemon",
+    "pk": 132
+},
+{
+    "fields": {
+        "name": "Ditto",
+        "tipo": "normal",
+        "image": "/media/img/132.png",
+        "attack": 48,
+        "defense": 48,
+        "hp": 48
+    },
+    "model": "app.pokemon",
+    "pk": 133
+},
+{
+    "fields": {
+        "name": "Eevee",
+        "tipo": "normal",
+        "image": "/media/img/133.png",
+        "attack": 55,
+        "defense": 50,
+        "hp": 55
+    },
+    "model": "app.pokemon",
+    "pk": 134
+},
+{
+    "fields": {
+        "name": "Vaporeon",
+        "tipo": "water",
+        "image": "/media/img/134.png",
+        "attack": 65,
+        "defense": 60,
+        "hp": 130
+    },
+    "model": "app.pokemon",
+    "pk": 135
+},
+{
+    "fields": {
+        "name": "Jolteon",
+        "tipo": "electric",
+        "image": "/media/img/135.png",
+        "attack": 65,
+        "defense": 60,
+        "hp": 65
+    },
+    "model": "app.pokemon",
+    "pk": 136
+},
+{
+    "fields": {
+        "name": "Flareon",
+        "tipo": "fire",
+        "image": "/media/img/136.png",
+        "attack": 130,
+        "defense": 60,
+        "hp": 65
+    },
+    "model": "app.pokemon",
+    "pk": 137
+},
+{
+    "fields": {
+        "name": "Porygon",
+        "tipo": "normal",
+        "image": "/media/img/137.png",
+        "attack": 60,
+        "defense": 70,
+        "hp": 65
+    },
+    "model": "app.pokemon",
+    "pk": 138
+},
+{
+    "fields": {
+        "name": "Omanyte",
+        "tipo": "rock",
+        "image": "/media/img/138.png",
+        "attack": 40,
+        "defense": 100,
+        "hp": 35
+    },
+    "model": "app.pokemon",
+    "pk": 139
+},
+{
+    "fields": {
+        "name": "Omastar",
+        "tipo": "rock",
+        "image": "/media/img/139.png",
+        "attack": 60,
+        "defense": 125,
+        "hp": 70
+    },
+    "model": "app.pokemon",
+    "pk": 140
+},
+{
+    "fields": {
+        "name": "Kabuto",
+        "tipo": "rock",
+        "image": "/media/img/140.png",
+        "attack": 80,
+        "defense": 90,
+        "hp": 30
+    },
+    "model": "app.pokemon",
+    "pk": 141
+},
+{
+    "fields": {
+        "name": "Kabutops",
+        "tipo": "rock",
+        "image": "/media/img/141.png",
+        "attack": 115,
+        "defense": 105,
+        "hp": 60
+    },
+    "model": "app.pokemon",
+    "pk": 142
+},
+{
+    "fields": {
+        "name": "Aerodactyl",
+        "tipo": "flying",
+        "image": "/media/img/142.png",
+        "attack": 105,
+        "defense": 65,
+        "hp": 80
+    },
+    "model": "app.pokemon",
+    "pk": 143
+},
+{
+    "fields": {
+        "name": "Snorlax",
+        "tipo": "normal",
+        "image": "/media/img/143.png",
+        "attack": 110,
+        "defense": 65,
+        "hp": 160
+    },
+    "model": "app.pokemon",
+    "pk": 144
+},
+{
+    "fields": {
+        "name": "Articuno",
+        "tipo": "flying",
+        "image": "/media/img/144.png",
+        "attack": 85,
+        "defense": 100,
+        "hp": 90
+    },
+    "model": "app.pokemon",
+    "pk": 145
+},
+{
+    "fields": {
+        "name": "Zapdos",
+        "tipo": "flying",
+        "image": "/media/img/145.png",
+        "attack": 90,
+        "defense": 85,
+        "hp": 90
+    },
+    "model": "app.pokemon",
+    "pk": 146
+},
+{
+    "fields": {
+        "name": "Moltres",
+        "tipo": "flying",
+        "image": "/media/img/146.png",
+        "attack": 100,
+        "defense": 90,
+        "hp": 90
+    },
+    "model": "app.pokemon",
+    "pk": 147
+},
+{
+    "fields": {
+        "name": "Dratini",
+        "tipo": "dragon",
+        "image": "/media/img/147.png",
+        "attack": 64,
+        "defense": 45,
+        "hp": 41
+    },
+    "model": "app.pokemon",
+    "pk": 148
+},
+{
+    "fields": {
+        "name": "Dragonair",
+        "tipo": "dragon",
+        "image": "/media/img/148.png",
+        "attack": 84,
+        "defense": 65,
+        "hp": 61
+    },
+    "model": "app.pokemon",
+    "pk": 149
+},
+{
+    "fields": {
+        "name": "Dragonite",
+        "tipo": "flying",
+        "image": "/media/img/149.png",
+        "attack": 134,
+        "defense": 95,
+        "hp": 91
+    },
+    "model": "app.pokemon",
+    "pk": 150
+},
+{
+    "fields": {
+        "codename": "add_logentry",
+        "name": "Can add log entry",
+        "content_type": 8
+    },
+    "model": "auth.permission",
+    "pk": 22
+},
+{
+    "fields": {
+        "codename": "change_logentry",
+        "name": "Can change log entry",
+        "content_type": 8
+    },
+    "model": "auth.permission",
+    "pk": 23
+},
+{
+    "fields": {
+        "codename": "delete_logentry",
+        "name": "Can delete log entry",
+        "content_type": 8
+    },
+    "model": "auth.permission",
+    "pk": 24
+},
+{
+    "fields": {
+        "codename": "add_permission",
+        "name": "Can add permission",
+        "content_type": 9
+    },
+    "model": "auth.permission",
+    "pk": 25
+},
+{
+    "fields": {
+        "codename": "change_permission",
+        "name": "Can change permission",
+        "content_type": 9
+    },
+    "model": "auth.permission",
+    "pk": 26
+},
+{
+    "fields": {
+        "codename": "delete_permission",
+        "name": "Can delete permission",
+        "content_type": 9
+    },
+    "model": "auth.permission",
+    "pk": 27
+},
+{
+    "fields": {
+        "codename": "add_group",
+        "name": "Can add group",
+        "content_type": 10
+    },
+    "model": "auth.permission",
+    "pk": 28
+},
+{
+    "fields": {
+        "codename": "change_group",
+        "name": "Can change group",
+        "content_type": 10
+    },
+    "model": "auth.permission",
+    "pk": 29
+},
+{
+    "fields": {
+        "codename": "delete_group",
+        "name": "Can delete group",
+        "content_type": 10
+    },
+    "model": "auth.permission",
+    "pk": 30
+},
+{
+    "fields": {
+        "codename": "add_user",
+        "name": "Can add user",
+        "content_type": 11
+    },
+    "model": "auth.permission",
+    "pk": 31
+},
+{
+    "fields": {
+        "codename": "change_user",
+        "name": "Can change user",
+        "content_type": 11
+    },
+    "model": "auth.permission",
+    "pk": 32
+},
+{
+    "fields": {
+        "codename": "delete_user",
+        "name": "Can delete user",
+        "content_type": 11
+    },
+    "model": "auth.permission",
+    "pk": 33
+},
+{
+    "fields": {
+        "codename": "add_contenttype",
+        "name": "Can add content type",
+        "content_type": 12
+    },
+    "model": "auth.permission",
+    "pk": 34
+},
+{
+    "fields": {
+        "codename": "change_contenttype",
+        "name": "Can change content type",
+        "content_type": 12
+    },
+    "model": "auth.permission",
+    "pk": 35
+},
+{
+    "fields": {
+        "codename": "delete_contenttype",
+        "name": "Can delete content type",
+        "content_type": 12
+    },
+    "model": "auth.permission",
+    "pk": 36
+},
+{
+    "fields": {
+        "codename": "add_session",
+        "name": "Can add session",
+        "content_type": 13
+    },
+    "model": "auth.permission",
+    "pk": 37
+},
+{
+    "fields": {
+        "codename": "change_session",
+        "name": "Can change session",
+        "content_type": 13
+    },
+    "model": "auth.permission",
+    "pk": 38
+},
+{
+    "fields": {
+        "codename": "delete_session",
+        "name": "Can delete session",
+        "content_type": 13
+    },
+    "model": "auth.permission",
+    "pk": 39
+},
+{
+    "fields": {
+        "codename": "add_pokemon",
+        "name": "Can add pokemon",
+        "content_type": 14
+    },
+    "model": "auth.permission",
+    "pk": 40
+},
+{
+    "fields": {
+        "codename": "change_pokemon",
+        "name": "Can change pokemon",
+        "content_type": 14
+    },
+    "model": "auth.permission",
+    "pk": 41
+},
+{
+    "fields": {
+        "codename": "delete_pokemon",
+        "name": "Can delete pokemon",
+        "content_type": 14
+    },
+    "model": "auth.permission",
+    "pk": 42
+},
+{
+    "fields": {
+        "username": "jorge",
+        "first_name": "",
+        "last_name": "",
+        "is_active": true,
+        "is_superuser": true,
+        "is_staff": true,
+        "last_login": "2015-04-08T13:07:12.947Z",
+        "groups": [],
+        "user_permissions": [],
+        "password": "pbkdf2_sha256$12000$1IwKsu3mR7eY$VIh9GKe7W6RkRlGLpXFus5xsM2vWaYzYChJ/W04t0Ek=",
+        "email": "",
+        "date_joined": "2015-04-08T13:07:12.947Z"
+    },
+    "model": "auth.user",
+    "pk": 2
+}
+]

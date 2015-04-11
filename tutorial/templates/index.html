@@ -1,9 +1,26 @@
 {% extends "base.html" %}
 
 {% block title %}
-	Hello World!
+	Pokemon Store
 {% endblock %}
 
 {% block content %}
-	<h1>Welcome to Django, buddy!</h1>
+<div class="row placeholders">
+{% for pokemon in pokemons %}
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="http://pokeapi.co{{ pokemon.image }}" alt="">
+      <div class="caption">
+        <h3>{{ pokemon.name }}</h3>
+        <h4>{{ pokemon.tipo }}</h4>
+        <p><strong>HP: </strong>{{ pokemon.hp }}</p>
+        <p><strong>Attack: </strong>{{ pokemon.attack }}</p>
+        <p><strong>Defense: </strong>{{ pokemon.defense }}</p>
+        <p><a href="/purchase/{{pokemon.id}}" class="btn btn-primary" role="button">¡Hazte con él!</a></p>
+      </div>
+    </div>
+  </div>
+{% endfor %}
+</div>
+
 {% endblock %}
