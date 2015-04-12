@@ -4,6 +4,10 @@
 	Pokemon Store
 {% endblock %}
 
+{% block home %}
+active
+{% endblock %}
+
 {% block content %}
 <div class="row placeholders">
 {% for pokemon in pokemons %}
@@ -16,7 +20,7 @@
         <p><strong>HP: </strong>{{ pokemon.hp }}</p>
         <p><strong>Attack: </strong>{{ pokemon.attack }}</p>
         <p><strong>Defense: </strong>{{ pokemon.defense }}</p>
-        <p><a href="/purchase/{{pokemon.id}}" class="btn btn-primary" role="button">¡Hazte con él!</a></p>
+        <p><a href="/purchase/?pokemon={{pokemon.id}}" class="btn btn-primary" role="button">¡Hazte con él!</a></p>
       </div>
     </div>
   </div>

@@ -87,4 +87,4 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-LOGIN_URL = '/signin'
+LOGIN_URL = '/login'

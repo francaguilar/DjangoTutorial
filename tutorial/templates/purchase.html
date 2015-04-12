@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block title %}
+	Pokemon Store
+{% endblock %}
+
+{% block purchase %}
+active
+{% endblock %}
+
+{% block content %}
+
+{% if purchase_pokemons %}
+<table class="table table-hover">
+<thead>
+	<tr>
+		<th>ID</th>
+		<th>Nombre</th>
+		<th>Tipo</th>
+		<th>Ataque</th>
+		<th>Defensa</th>
+	</tr>
+</thead>
+<tbody>
+{% for pokemon in purchase_pokemons %}
+<tr>
+  <th scope="row">{{ pokemon.id }}</td>
+  <td>{{ pokemon.name }}</td>
+  <td>{{ pokemon.tipo }}</td>
+  <td>{{ pokemon.attack }}</td>
+  <td>{{ pokemon.defense }}</td>
+</tr>
+{% endfor %}
+</tbody>
+</table>
+<h1><a class="btn btn-default btn-success" href="/">Realiza mi pedido</a></h1>
+{% else %}
+<h1>Agrega unos Pokemon a la cesta antes de hacer un pedido... <a class="btn btn-default btn-success" href="/">¡CLICK AQUÍ!</a></h1>
+{% endif %}
+
+{% endblock %}
