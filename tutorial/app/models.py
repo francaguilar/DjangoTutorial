@@ -15,4 +15,5 @@ class Pokemon(models.Model):
 class Purchase(models.Model):
 	user = models.ForeignKey(User)
 	pokemons = models.ManyToManyField(Pokemon)
+	checkout = models.BooleanField(default=False)
 

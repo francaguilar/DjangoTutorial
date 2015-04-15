@@ -19,6 +19,7 @@ active
 		<th>Tipo</th>
 		<th>Ataque</th>
 		<th>Defensa</th>
+		<th>Precio</th>
 	</tr>
 </thead>
 <tbody>
@@ -29,11 +30,12 @@ active
   <td>{{ pokemon.tipo }}</td>
   <td>{{ pokemon.attack }}</td>
   <td>{{ pokemon.defense }}</td>
+  <td>{{ prices|random }} €</td>
 </tr>
 {% endfor %}
 </tbody>
 </table>
-<h1><a class="btn btn-default btn-success" href="/checkout">Realiza mi pedido</a>   <a class="btn btn-default btn-danger" href="/purchase?clean=1">Borra mi pedido</a></h1>
+<h1><a class="btn btn-default btn-success" href="/checkout">¡Me los quedo!</a>   <a class="btn btn-default btn-danger" href="/purchase?clean=1">Borra mi pedido</a></h1>
 {% else %}
 <h1>Agrega unos Pokemon a la cesta antes de hacer un pedido... <a class="btn btn-default btn-success" href="/">¡CLICK AQUÍ!</a></h1>
 {% endif %}
